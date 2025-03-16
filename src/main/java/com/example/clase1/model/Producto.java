@@ -23,7 +23,8 @@ public class Producto {
     private Integer cantidadStock;
     private Boolean estado;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    //@ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "id_categoria")
     private Categoria categoria;
 

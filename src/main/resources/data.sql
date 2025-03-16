@@ -1,3 +1,5 @@
+--categorias
+INSERT INTO CATEGORIAS (ID_CATEGORIA, DESCRIPCION, NOMBRE) VALUES (1, 'CATEGORIA 1', 'CAT1');
 --AÑADIR USUARIO Y ROL
 INSERT INTO usuarios (username, password, role)
 VALUES ('test', '$2a$12$b1rtI8aIIMBTU6KUAxmfX.ErKaeKw/n06eMmdd9UU8BpZSFJhn4NG', 'ADMIN');
